@@ -15,7 +15,7 @@ const Xcounter = ()=>{
         <div>   
             <h3>Counter App</h3>
 
-            <p>{count}</p>
+            <p>Count: {count}</p>
 
             <button onClick={handleIncrement}>Increment</button>
             <button onClick={handleDecrement}>Decrement</button>
